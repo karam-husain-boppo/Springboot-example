@@ -1,0 +1,14 @@
+package lambdaEg;
+interface Test{
+	public void run();
+}
+public class LambdaExample{
+	public static void main (String args[])
+	{
+		Test t= ()->{
+			System.out.println("test done");
+		};
+	//	t.run();
+	}
+
+}
